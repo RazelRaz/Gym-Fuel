@@ -1,0 +1,67 @@
+.main__header {
+    width: 100vw;
+    height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.main__header_container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+/* Hero Left Side */
+.main__header_left {
+    margin-top: -3rem;
+}
+
+.main__header_left h4 {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #BF1B2C;
+}
+
+.main__header_left p {
+    font-size: 1.1rem;
+    margin: 1rem 0 3.5rem;
+    color: #fff;
+}
+
+.main__header_left h1 {
+    font-size: 2.8rem;
+}
+/* Hero Left Side Ends */
+
+
+/* Hero Right Side */
+
+.main__header_right {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.main__header_circle {
+    background: linear-gradient(75deg, gold, transparent);
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(15px);
+    /* transition: all 500ms ease; */
+}
+
+.main__header_image {
+    position: relative;
+}
+
+/* .main__header:hover .main__header_circle {
+    filter: blur(15px);
+} */
+
+/* Hero Right Side Ends */
