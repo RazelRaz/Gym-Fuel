@@ -1,0 +1,31 @@
+.faqs__wrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem 5rem;
+    align-items: flex-start;
+}
+
+article.faq {
+    background: #341f1f;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/* FAQ */
+.faq div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq__icon {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.faq p {
+    margin-top: 1.5rem;
+}

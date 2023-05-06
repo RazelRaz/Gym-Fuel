@@ -95,7 +95,7 @@ section {
 /* Card Component */
 .card {
     /* background: gray; */
-    background-image: url('./images/weightlifing.jpg');
+    /* background-image: url('./images/weightlifing.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #ccc;
