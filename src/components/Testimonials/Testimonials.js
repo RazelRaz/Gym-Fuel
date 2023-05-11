@@ -7,8 +7,23 @@ import {testimonials} from '../../data';
 import { useState } from 'react';
 
 const Testimonials = () => {
-    const [index, setIndex] = useState(1);
+    const [index, setIndex] = useState(0);
     const {name, quote, job, avatar} = testimonials[index];
+
+    // testimonial left right 
+    const prevTestimonialHandler = () => {
+        setIndex(prev => prev - 1);
+        if(index <= 0 ){
+            setIndex(testimonials.length - 1)
+        }
+    }
+
+    const nextTestimonialHandler = () => {
+        setIndex(prev => prev + 1);
+        if(index >= testimonials.length - 1){
+            setIndex(0);
+        }
+    }
  
   return (
     <section className='testimonials'>
@@ -23,8 +38,8 @@ const Testimonials = () => {
                 <small className='testimonial__title'>{job}</small>
             </Card>
             <div className='testimonials__btn_container'>
-                <button className='testimonials__btn'><FaRegArrowAltCircleLeft></FaRegArrowAltCircleLeft></button>
-                <button className='testimonials__btn'><FaRegArrowAltCircleRight></FaRegArrowAltCircleRight></button>
+                <button className='testimonials__btn' onClick={prevTestimonialHandler}><FaRegArrowAltCircleLeft></FaRegArrowAltCircleLeft></button>
+                <button className='testimonials__btn' onClick={nextTestimonialHandler}><FaRegArrowAltCircleRight></FaRegArrowAltCircleRight></button>
             </div>
         </div>
     </section>

@@ -11,6 +11,7 @@ section.testimonials {
     position: relative;
     text-align: left;
     margin-top: 5rem;
+    background: #63171f;
 }
 
 .testimonial__avatar {
