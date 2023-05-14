@@ -144,4 +144,34 @@ section {
 }
 
 
+/************************************************** 
+   Media Queries - Medium Screens 
+***************************************************/
+@media screen and (max-width: 1024px) {
+    body {
+        /* background-color: aqua; */
+    }
+    .container {
+        width: 90%;
+    }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+}
+
+
+/************************************************** 
+   Media Queries - Small Screens 
+***************************************************/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.3rem;
+    }
+}

@@ -1,0 +1,59 @@
+/************************************************** 
+   Media Queries - Medium Screens 
+***************************************************/
+@media screen and (max-width: 1024px) {
+    /* Hero */
+    .main__header {
+        height: fit-content;
+        padding: 12rem 0;
+    }
+    .main__header_container {
+        gap: 0;
+    }
+    .main__header_circle {
+        width: 16rem;
+        height: 16rem;
+    }
+    /* Hero Ends*/
+
+    /* Programs  */
+    .programs_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Programs Ends */
+
+    /* Values */
+    .values_container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .values_wrapper {
+        gap: 4rem 3rem;
+    }
+
+    .values_image {
+        display: none;
+    }
+    /* Values ends*/
+
+    /* FAQs */
+    .faqs .faqs__wrapper {
+        grid-template-columns: 1fr;
+    }
+    /* FAQs ends*/
+
+    /* Testimonials */
+    .testimonials {
+        width: 70% !important;
+    }
+    /* Testimonials ends*/
+
+    /* Footer */
+    footer .footer__container {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 4rem !important;
+    }
+
+}
