@@ -63,3 +63,8 @@ footer {
     border-top: 2px solid #ff7575;
     margin-top: 5rem;
 }
+
+
+@media screen and (max-width: 600px) { 
+    
+}

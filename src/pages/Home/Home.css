@@ -134,8 +134,17 @@
     }
 
     /* footer */
-    .footer__container {
+    .container.footer__container {
+        gap: 3rem !important;
+        grid-template-columns: 1fr !important;
+    }
 
+    .container.footer__container article {
+        align-items: center;
+    }
+
+    .footer__container article p {
+        text-align: center;
     }
 
 }
