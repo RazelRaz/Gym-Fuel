@@ -98,6 +98,21 @@
     .programs_program {
         width: 85%;
         margin: 0 auto;
+        /* margin: inline auto; */
+    }
+
+    /* Values */
+    .values_area {
+        margin-top: 2rem;
+    }
+    .values_wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    article.card.values_value {
+        width: 85%;
+        margin: 0 auto;
+        /* margin: inline auto; */
     }
 
 }

@@ -9,7 +9,7 @@ import Card from '../../UI/Card/Card';
 
 const Values = () => {
     return (
-        <section className='values_area '>
+        <section className='values_area'>
             <div className='container values_container'>
                 <div className='values_left'>
                     <div className='values_image'>
