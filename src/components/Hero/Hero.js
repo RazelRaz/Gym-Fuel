@@ -11,7 +11,7 @@ const Hero = () => {
                     <h4>#30DaysWorkOutChallenge</h4>
                     <h1>Join The Legends Of The Fitness World</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem nam ad dolores praesentium provident.</p>
-                    <div>
+                    <div className='hero_btn'>
                         <Link to='/plans' className='btn lg'>Get Started</Link>
                     </div>
                 </div>
