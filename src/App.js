@@ -8,6 +8,7 @@ import Trainers from './pages/Trainers/Trainers'
 import NotFound from './pages/NotFound/NotFound'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='trainers' element={<Trainers></Trainers>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
   )
 }

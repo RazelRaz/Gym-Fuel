@@ -1,0 +1,24 @@
+.our__mission_image {
+    border-radius: 10%;
+    overflow: hidden;
+    transform: skew(-1deg);
+    transition: all 500ms ease;
+}
+
+.our__mission_image:hover {
+    transform: skew(-0deg);
+}
+
+.our__mission_content h1 {
+    margin-bottom: 2rem;
+}
+
+.our__mission_content p {
+    margin-bottom: 1rem;
+}
+
+.our__mission_container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}

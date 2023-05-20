@@ -1,0 +1,24 @@
+.about_section_image {
+    border-radius: 10%;
+    overflow: hidden;
+    transform: skew(10deg);
+    transition: all 500ms ease;
+}
+
+.about_section_image:hover {
+    transform: skew(0deg);
+}
+
+.about_section_content h1 {
+    margin-bottom: 2rem;
+}
+
+.about_section_content p {
+    margin-bottom: 1rem;
+}
+
+.about__story_container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
