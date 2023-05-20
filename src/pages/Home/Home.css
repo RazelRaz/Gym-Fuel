@@ -88,6 +88,16 @@
         margin-top: 52px;
     }
 
+    /* programs */
+    .programs_wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
 
-    
+    .programs_program {
+        width: 85%;
+        margin: 0 auto;
+    }
+
 }
