@@ -56,6 +56,11 @@
         gap: 4rem !important;
     }
 
+    /* about us */
+    .header__content {
+        width: 75%;
+    }
+
 }
 
 /************************************************** 
@@ -145,6 +150,21 @@
 
     .footer__container article p {
         text-align: center;
+    }
+
+    /* about us */
+    header.header {
+        height: fit-content;
+    }
+    /* section {
+        margin-top: 7rem;
+    } */
+    .header__content {
+        width: 90%;
+        padding: 3rem 0;
+    }
+    .header__content {
+        font-size: 0.85rem;
     }
 
 }
