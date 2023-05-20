@@ -115,4 +115,27 @@
         /* margin: inline auto; */
     }
 
+    /* FAQs_area */
+    .faqs {
+        margin-top: 3rem;
+    }
+    .faqs__wrapper {
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+    /* testimonial */
+    .testimonials {
+        width: 100% !important;
+        margin-top: 3em;
+    }
+    .card.testimonial {
+        margin-top: 3rem;
+    }
+
+    /* footer */
+    .footer__container {
+
+    }
+
 }
