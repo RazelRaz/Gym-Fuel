@@ -1,0 +1,50 @@
+.contact__container {
+    display: grid;
+    place-items: center;
+}
+
+.contact__wrapper {
+    display: flex;
+    gap: 2rem;
+    width: fit-content;
+}
+
+.contact__wrapper a {
+    font-size: 2rem;
+    border: 1px solid transparent;
+    background: #BF1B2C;
+    transition: all 500ms ease;
+    padding: 1.2rem 2rem;
+    border-radius: 10px;
+}
+
+.contact__wrapper a:last-child:hover {
+    background-color: #25D366;
+}
+.contact__wrapper a:nth-child(2):hover {
+    background-color: #0099FF;
+}
+.contact__wrapper a:first-child:hover {
+    background-color: #c71610;
+}
+
+/************************************************** 
+   Media Queries - Medium Screens 
+***************************************************/
+@media screen and (max-width: 1024px) {
+    .contact__wrapper {
+        gap: 1.5rem;
+    }
+    .contact__wrapper a {
+        padding: 0.8rem 1.8rem;
+    }
+}
+
+/************************************************** 
+   Media Queries - SMall Screens 
+***************************************************/
+@media screen and (max-width: 600px) {
+    .contact {
+        margin-top: 7rem;
+    }
+}
