@@ -1,0 +1,38 @@
+.trainers__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+
+/************************************************** 
+   Media Queries - Medium Screens 
+***************************************************/
+@media screen and (max-width: 1024px) {
+
+    .trainers {
+        margin-top: 3rem;
+    }
+
+    .trainers__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+}
+
+
+/************************************************** 
+   Media Queries - SMall Screens 
+***************************************************/
+@media screen and (max-width: 600px) {
+    .trainers__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    article.card.trainer {
+        width: 90%;
+        margin-inline: auto;
+    }
+}

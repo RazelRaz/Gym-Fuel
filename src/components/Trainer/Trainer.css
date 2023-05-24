@@ -1,0 +1,38 @@
+.card.trainer {
+    padding: 1rem;
+    background-color: #BF1B2C;
+    border: 2px solid #fff;
+}
+
+.trainer__img {
+    border-radius: 0rem 2rem !important;
+    overflow: hidden;
+}
+
+.trainer h3 {
+    margin-top: 2rem;
+}
+
+.trainer p {
+    margin-top: 0.5rem;
+}
+
+.trainer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.trainer__socials a {
+    font-size: 1.7rem;
+}
+
+.card.trainer svg {
+    color: #fff !important;
+}
+
+.card.trainer svg:hover {
+    color: gold !important;
+}

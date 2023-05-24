@@ -66,6 +66,9 @@
    Media Queries - Medium Screens 
 ***************************************************/
 @media screen and (max-width: 1024px) {
+    .plans {
+        margin-top: 3rem;
+    }
     .plans_container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
