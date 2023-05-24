@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# GYMFUEL - Multi Page Website / React Js 18 and React Router 6
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a gym Multi Page Website built using React Js 18 and React Router 6. The website provides a modern and interactive interface for users to explore various features and information related to the gym. It utilizes the power of React Js to create a seamless user experience and React Router for efficient navigation across different pages.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design:** The website is designed to be fully responsive, ensuring optimal viewing experience across a wide range of devices and screen sizes.
 
-### `npm start`
+- **Multiple Pages:** The website consists of multiple pages that offer different functionalities and content. Users can easily navigate between these pages using the navigation menu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interactive Components:** Interactive components are incorporated to enhance user engagement. These components provide features such as class schedules, trainer profiles, membership details, and more.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React Router Integration:** React Router 6 is utilized for handling the routing within the website. It enables smooth navigation between different pages without the need for page refreshes.
 
-### `npm test`
+- **Modern UI/UX:** The website is designed with a modern and visually appealing user interface, ensuring a pleasant experience for visitors. The layout and styling are carefully crafted to showcase the gym's brand and services effectively.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Live Website:** [https://extraordinary-bienenstitch-4fca31.netlify.app/](https://extraordinary-bienenstitch-4fca31.netlify.app/)
 
-### `npm run build`
+Feel free to explore the website and make any necessary improvements or additions to enhance its functionality and user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
