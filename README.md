@@ -18,3 +18,6 @@ This is a gym Multi Page Website built using React Js 18 and React Router 6. The
 
 Feel free to explore the website and make any necessary improvements or additions to enhance its functionality and user experience.
 
+![image](https://github.com/RazelRaz/gym-fuel/assets/48205844/939023ee-515d-491a-bdbc-287168caa33f)
+
+
